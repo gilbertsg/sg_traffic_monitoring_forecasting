@@ -1,0 +1,9 @@
+code/backup
+code/lightning_logs
+data/backup_logs
+dnn_model
+images/delinput
+images/mask
+other
+production/images
+production/processed_images
