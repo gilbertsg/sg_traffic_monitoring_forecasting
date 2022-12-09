@@ -3,6 +3,41 @@
 ----
 Best viewed in dark mode
 
+Please view the [slide deck](https://tinyurl.com/363v3xbr) for a more consolidated explanation of the project.
+
+----
+# Table of Content
+- [1. Introduction](#1-introduction)
+  * [1.1 Background](#11-background)
+  * [1.2 Existing Solutions](#12-existing-solutions)
+      - [1.2.1 Static traffic images](#121-static-traffic-images)
+      - [1.2.2 Crowd-sourced traffic density estimations](#122-crowd-sourced-traffic-density-estimations)
+      - [1.2.3 Traffic monitoring and survey for government](#123-traffic-monitoring-and-survey-for-government)
+- [2 Problem Statement](#2-problem-statement)
+- [3 Objectives](#3-objectives)
+- [4 Project Summary](#4-project-summary)
+  * [4.1 Data Acquisition](#41-data-acquisition)
+  * [4.2 Vehicle Detection from traffic images](#42-vehicle-detection-from-traffic-images)
+    + [4.2.1 Performance and accuracy of image detection](#421-performance-and-accuracy-of-image-detection)
+      - [Performance](#performance)
+      - [Accuracy](#accuracy)
+    + [4.2.2 Known issues and potential improvements](#422-known-issues-and-potential-improvements)
+  * [4.3 Time series analysis](#43-time-series-analysis)
+    + [4.3.1 Data Processing - Temporal Aggregation](#431-data-processing---temporal-aggregation)
+    + [4.3.2 Weekly Seasonality over the Month](#432-weekly-seasonality-over-the-month)
+    + [4.3.3 Daily Seasonality over the Week](#433-daily-seasonality-over-the-week)
+    + [4.3.4 Trend over the whole island](#434-trend-over-the-whole-island)
+  * [4.4 Time series forecasting](#44-time-series-forecasting)
+    + [4.4.1 Seasonal Decomposition](#441-seasonal-decomposition)
+    + [4.4.2 Train-Test Split](#442-train-test-split)
+    + [4.4.3 Modelling](#443-modelling)
+    + [4.4.4 Model evaluation](#444-model-evaluation)
+    + [4.4.5 Prophet model interpretation](#445-prophet-model-interpretation)
+    + [4.4.6 Effect of Forecast Horizon](#446-effect-of-forecast-horizon)
+  * [4.5 Deployment](#45-deployment)
+- [5 Future Works / Potential Improvements](#5-future-works---potential-improvements)
+
+
 ----
 # 1. Introduction
 
