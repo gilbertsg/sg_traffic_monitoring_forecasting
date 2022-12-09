@@ -271,6 +271,7 @@ The deployment of the traffic monitoring app is done in two parts:
 - Front-end to display the traffic images, vehicle count history, and the prediction
 
 Here is a diagram of the app architecture:
+
 ![img](images/notebook_images/deployment_architecture.jpg)
 
 The front-end will contain the following:
@@ -280,7 +281,10 @@ The front-end will contain the following:
 - A graph containing the current, historical, and forecast traffic count
 
 Here is a screenshot of the front-end app:
-![img](images/notebook_images/front_end_screenshot.jpg)
+
+![img](images/notebook_images/streamlit_screen_cap.gif)
+
+
 
 A demo version (with historical images / traffic counts) of the traffic monitoring app can be viewed [here](https://gilbertsg-sg-traffic-ap-streamlit-traffic-monitoring-app-b6y7xt.streamlit.app/)
 

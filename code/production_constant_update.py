@@ -53,7 +53,7 @@ cam_id_list = [1702,2706,4708,4702,6710,6714,7793]
 
 def get_cam_now():
     '''
-    This function will do a vehicle_count at the current datetime
+    This function will do a vehicle_count for all the cameras in cam_id_list at the current datetime
     '''
     dt_list = [dt.now()]
     
@@ -74,6 +74,8 @@ def get_cam_now():
 ########################
 ### USER INTERACTION ###
 ########################
+
+# scheduling the get_cam_now function to run every 10 minutes
 
 schedule.clear()
 get_cam_now()
