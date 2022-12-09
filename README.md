@@ -5,6 +5,8 @@ Best viewed in dark mode
 
 Please view the [slide deck](https://tinyurl.com/363v3xbr) for a more consolidated explanation of the project.
 
+A demo version (with historical images / traffic counts) of the traffic monitoring app can be viewed [here](https://gilbertsg-sg-traffic-ap-streamlit-traffic-monitoring-app-b6y7xt.streamlit.app/)
+
 ----
 # Table of Content
 - [1. Introduction](#1-introduction)
@@ -279,6 +281,10 @@ The front-end will contain the following:
 
 Here is a screenshot of the front-end app:
 ![img](images/notebook_images/front_end_screenshot.jpg)
+
+A demo version (with historical images / traffic counts) of the traffic monitoring app can be viewed [here](https://gilbertsg-sg-traffic-ap-streamlit-traffic-monitoring-app-b6y7xt.streamlit.app/)
+
+Currently the online deployment of the app only includes the front-end aspect of the app. For future work, it would be possible to deploy the whole pipeline to the cloud using Amazon Sagemaker.
 
 ----
 # 5 Future Works / Potential Improvements
